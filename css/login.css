@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@400;700&display=swap');
+
+* {
+    margin: 0 ;  
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  html{
+    white-space:nowrap;
+    }
+    body {
+    display:inline-block;
+    overflow-x: hidden
+    }
+
+
+
+#login {
+    background: rgba(83, 81, 81, 1);
+}
+
+#center {
+    background: rgba(33, 32, 32, 1);
+    justify-content: center;
+    position: absolute;
+    display: flex; 
+    width: 800px;
+    height: 965px;
+    top: 0.1px;
+    left: 530px;
+}
+
+.icon2 {
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    top: -80px;
+    left: 735px;
+}
+
+.linha {
+    background-color: aliceblue;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    width: 690px;
+    height: 2px;
+    top: 320px;
+    left: 582px;
+}
+
+
+.top1 {
+    position: absolute;
+    top: 130px;
+    left: 20px;
+}
+
+
+#Error {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#testeee {
+ position: absolute;
+text-align: center;
+color: green;
+padding: 100px;
+display: none;
+border-radius: 140px;
+width: 400px;
+height: 50px;
+top: 320px;
+left: 500px;
+}
+
+
+
+
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+form {
+    max-width: 400px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 920px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+form h3 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input[type=text],
+form input[type=password]{
+    width: 50%;
+    height: 35px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+form button{
+  width: 40%;
+  height: 40px;
+  cursor: pointer;
+  background-color: #B11E1E;
+  border: 3px solid #892222;
+  text-decoration: solid; color: white; font-style: italic; font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+form input[type=password]:focus{
+    outline: 0;
+}
+
+form button:hover{
+  background-color: #df3434;
+}
+
+
+form h4 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#testii {
+    color: white;
+  
+}
+
+.sumir{
+    display:none;
+}
+
+#concluido {
+    color: white;
+    position: absolute;
+    left: 732px;
+    top: 50%;
+   font-size: 40px;
+
+}
+
+#Botão-Voltar {
+   background-color: #ffffff;
+   color: #892222
+}
+
+fieldset button{
+    left: 80px;
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #B11E1E;
+    border: 3px solid #892222;
+    text-decoration: solid; color: white; font-style: italic; font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    
+}

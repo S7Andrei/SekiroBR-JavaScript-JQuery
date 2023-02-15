@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>LOGIN</title>
+</head>
+
+
+
+<body id="login">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+     <header>
+
+        <div id="center"></div>
+        <img class="icon2" src="../img/loboicon2.png" alt="l2">
+
+
+        <div class="linha"></div>
+
+     </header>
+  
+
+          <div id="Error"></div>
+
+          <div>
+
+        <form id="aa" class="">
+            <h3>CADASTRE-SE</h3>
+            <input id="email" type="text" name="email" placeholder="Digite seu e-mail...">
+            <input id="senhaa" type="password" name="senha" placeholder="Digite sua senha...">
+            <button type="button" id="enviar12" onclick="enviar()" name="acao"> enviar </button>
+        </form>
+        
+        <div id="concluido" class="sumir"> Concluído com Sucesso! </div>
+        
+
+        </div>
+
+         <script>
+
+            var email = document.getElementById('email');
+
+            email.addEventListener('focus', ()=> {
+            })
+              
+                
+
+ /*           
+function enviar(){
+    document.getElementById("aa").style("display:none");
+    document.getElementById("concluido").classList.remove("sumir");
+    console.log("testando");
+ } */
+
+                        
+
+         </script>
+
+       <fieldset>
+         <button type="submit" onclick="goBack()"> Voltar </button>
+        </fieldset>
+ 
+
+
+         <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+         <script src="../scripts/login.js" defer></script>
+</body>
+
+</html>
