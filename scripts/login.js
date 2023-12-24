@@ -27,6 +27,10 @@ console.log(name);
     senha:""
  }
 
+Jquery function, label=(12px) = X;
+
+let X [void];
+
  name = JSON.parse(localStorage.getItem("name"))
 
  console.log(name)
